@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'cg omega','CG Times';
+
+}
+.my.element {
+background-color: #F6E9DF;
+}
+
+
+.tittle {
+font-size: 24px;
+color: #060F0F;
+text-align: center;
+}
+
+.header {
+	position: fixed;
+	top: 3;
+	left: 0;
+	width: 100%;
+	padding: 10px 10px;
+	background: transparent;
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}	
+.navbar a {
+	font-size: 30px;
+	color: #807B77;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 140px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+	color: #F0D42;
+}
+.home-image {
+
+	display: block;
+margin-left: 100px;
+margin-top: 70px;
+	justify-content: center;
+	align-items: left;
+	width: 300px;
+	height: 350px;
+	overflow: hidden;
+	
+	
+}
+
+.home-image img {
+padding-left: 20%;
+    padding-top: 40%;
+	position: relative;
+	bottom: 1px;
+	max-width: 200px;
+	height: 200;
+}
+.content-content1 h1 {
+width: 2px;
+height: 10px;
+padding-left: 11%;
+    padding-bottom: 5%;
+	text-align: left;
+	text-decoration: none;
+	font-size: 30px;
+}
+.btn {
+	position: center;
+	padding: 10px 30px;
+
+	background: #00abf0;
+	border-radius: 30px;
+	align-items: center;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	box-shadow: 0 0 18px #0076F0;
+	transition: .5s;;
+	margin-left: 160px;
+	margin-top: 700%;
+}
+
+
+
+.container-container1 {	
+	position: fixed;
+	top: 20%;
+	left: 450px;
+	width: 62.3%;
+	padding: 10px 20px;
+	
+}
+.container-container1 h1 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+.container-container1 p {
+	text-align: center;
+	text-decoration: none;
+	font-family: times new roman;
+	font-size: 25px;
+	font-weight: 500; 
+
+}
+.ammu-ammu1 {	
+	position: fixed;
+	top: 57%;
+	left: 450px;
+	width: 62.3%;
+	padding: 10px 20px;
+	
+
+}
+
+.ammu-ammu1 h1 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+.ammu-ammu1 p {
+	text-align: center;
+	text-decoration: none;
+	font-family: times new roman;
+	font-size: 25px;
+	font-weight: 500; 
+
+}
+
+
+
